@@ -1,0 +1,291 @@
+
+
+/* .main{
+    width: 100%;
+    min-height: 100vh;
+   
+   
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.box1{
+  display: flex;
+  background-image: url('https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=1060&t=st=1669777910~exp=1669778510~hmac=524fb11e46653421514a20a9fea323a84d46e0a205f4372384a150391b27f357');
+  /* background-color: blue; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+    position: relative;
+    /* max-width: 1020px; */
+    max-width: 2020px;
+    height: 1240px;
+    /* background-color: rgb(227, 214, 210); */
+   
+    box-shadow: 0 60px 40px -30px rgba(0,0,0,0.27) ;
+}
+.inner-box{
+ 
+    border-radius: 20px;
+    flex-wrap: wrap;
+    position: absolute;
+    width: calc(100% - 4.1rem);
+    height: calc(100% - 4.1rem);
+    
+    
+   
+}
+
+.forms-wrap{
+  
+  flex-wrap: nowrap;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    height: 100%;
+    width: 45%;
+    top: 0;
+    left: 0;
+    margin-left: -60px;
+   
+
+}
+
+form {
+  flex-wrap: wrap;
+    max-width: 260px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-ev;
+    margin-top: 100px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    transition: opacity 0.02s 0.4s;
+    
+  }
+  
+  form.sign-up-form {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 27px;
+    margin-right: 0.3rem;
+  }
+  
+  .logo h4 {
+    font-size: 1.1rem;
+    margin-top: -9px;
+    letter-spacing: -0.5px;
+    color: #151111;
+  }
+  
+  .heading h2 {
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #151111;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .heading h6 {
+    color: #161414;
+    font-weight: 400;
+    font-size: 0.75rem;
+    display: inline;
+  }
+  
+  .toggle {
+    color: #151111;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .toggle:hover {
+    color: #8371fd;
+  }
+  
+  .input-wrap {
+    position: relative;
+    height: 37px;
+    margin-bottom: 2rem;
+  }
+  
+  .input-field {
+   
+    position: absolute;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(68, 64, 64);
+    padding: 0;
+    font-size: 0.95rem;
+    color: #151111;
+    transition: 0.4s;
+  }
+  
+  label {
+    position: absolute;
+    left: -30%;
+    top: 40%;
+    transform: translateY(-30%);
+    font-size: 0.85rem;
+    color: rgb(59, 54, 54);
+    pointer-events: none;
+    transition: 0.4s;
+  }
+  .input-field.active {
+    border-bottom-color: #151111;
+  }
+  
+  .input-field.active + label {
+    font-size: 0.75rem;
+    top: -2px;
+  }
+  
+  .sign-btn {
+    display: inline-block;
+    width: 100%;
+    height: 43px;
+    background-color: #151111;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    transition: 0.3s;
+  }
+  
+  .sign-btn:hover {
+    background-color: #8371fd;
+  }
+  .signup-btn:hover {
+    background-color: #8371fd;
+  }
+  
+  
+  .text {
+    color: rgb(40, 38, 38);
+    font-size: 0.7rem;
+  }
+  
+  .text a {
+    color: rgb(35, 32, 32);
+    transition: 0.3s;
+    font-size: medium;
+  }
+  
+  .text a:hover {
+    color: #8371fd;
+  }
+.dropdown{
+  height: 30px;
+  width: 100px;
+}
+select#cars{
+  height: 30px;
+  width:220px;
+  margin: 20px;
+  border: 0;
+  align-self: center;
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+  
+  
+}
+  
+  
+  
+  
+
+.carousel{
+  
+    position: absolute;
+    flex-wrap: nowrap;
+    height: 80%;
+    width: 55%;
+    left: 45%;
+    top: 0;
+    /* background-color: rgb(255, 0, 0); */
+    background-image: url('') ;
+    /* background-repeat: no-repeat ; */
+    /* background-size: cover; */
+}
+@media (max-width:800px) {
+  .carousel {
+    display: none;
+    
+  }
+  .inner-box{
+    align-self: center;
+  }
+  .forms-wrap{
+    margin-left: 100px;
+  }
+    
+  
+}
+
+h1.company-title{
+    padding: 30px;
+    margin: 10px;
+}
+.company-details{
+  padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.signup-btn{
+ 
+  width: 30%;
+  align-self: center;
+  height: 43px;
+  background-color: #151111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  margin-left: 270px;
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+  transition: 0.3s;
+
+}
+.inner-carousel{
+  align-items: center;
+  align-content: center;
+
+}
+.error_msg1 {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+h2{
+  width:400px
+}

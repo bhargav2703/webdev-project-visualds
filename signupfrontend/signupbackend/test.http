@@ -1,0 +1,9 @@
+POST http://localhost:4000/localhost:4000
+Content-Type: application/json
+
+{
+    "fullName":"pranavtp",
+    "username":"pat399",
+    "email":"123@gmil",
+    "password":"pat123"
+}

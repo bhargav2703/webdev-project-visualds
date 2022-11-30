@@ -1,0 +1,293 @@
+
+
+/* .main{
+    width: 100%;
+    min-height: 100vh;
+   
+   
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.main{
+  overflow: hidden;
+  height: fit-content;
+  
+}
+.box1{
+  display: flex;
+  background-image: url('https://img.freepik.com/free-vector/flat-geometric-background_23-2148957201.jpg?w=2000&t=st=1669690882~exp=1669691482~hmac=a118207ae9ecb090f2dd8e7e9288535e1f35f43ef4fd2bb2c0b749d10a854e7c');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+    position: relative;
+    /* max-width: 1020px; */
+    max-width: 2020px;
+    height: 1240px;
+    background-color: rgb(227, 214, 210);
+   
+    box-shadow: 0 60px 40px -30px rgba(0,0,0,0.27) ;
+}
+.inner-box{
+ 
+    border-radius: 20px;
+    flex-wrap: wrap;
+    position: absolute;
+    width: calc(100% - 4.1rem);
+    height: calc(100% - 4.1rem);
+    
+    
+   
+}
+
+.forms-wrap{
+  
+  flex-wrap: nowrap;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    height: 100%;
+    width: 45%;
+    top: 0;
+    left: 0;
+   
+
+}
+
+form {
+  flex-wrap: wrap;
+    max-width: 260px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-ev;
+    margin-top: 100px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    transition: opacity 0.02s 0.4s;
+    
+  }
+  
+  form.sign-up-form {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 27px;
+    margin-right: 0.3rem;
+  }
+  
+  .logo h4 {
+    font-size: 1.1rem;
+    margin-top: -9px;
+    letter-spacing: -0.5px;
+    color: #151111;
+  }
+  
+  .heading h2 {
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #151111;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .heading h6 {
+    color: #161414;
+    font-weight: 400;
+    font-size: 0.75rem;
+    display: inline;
+  }
+  
+  .toggle {
+    color: #151111;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .toggle:hover {
+    color: #8371fd;
+  }
+  
+  .input-wrap {
+    position: relative;
+    height: 37px;
+    margin-bottom: 2rem;
+  }
+  
+  .input-field {
+   
+    position: absolute;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(68, 64, 64);
+    padding: 5px;
+    font-size: 0.95rem;
+    color: #151111;
+    transition: 0.4s;
+    border-radius: 5px;
+  }
+  
+  label {
+    position: absolute;
+    left: -30%;
+    top: 40%;
+    transform: translateY(-30%);
+    font-size: 0.85rem;
+    color: rgb(59, 54, 54);
+    pointer-events: none;
+    transition: 0.4s;
+  }
+  .input-field.active {
+    border-bottom-color: #151111;
+  }
+  
+  .input-field.active + label {
+    font-size: 0.75rem;
+    top: -2px;
+  }
+  
+  .sign-btn {
+    display: inline-block;
+    width: 100%;
+    height: 43px;
+    background-color: #151111;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    transition: 0.3s;
+  }
+  
+  .sign-btn:hover {
+    background-color: #8371fd;
+  }
+  .signup-btn:hover {
+    background-color: #8371fd;
+  }
+  
+  .text {
+    color: rgb(40, 38, 38);
+    font-size: 0.7rem;
+  }
+  
+  .text a {
+    color: rgb(35, 32, 32);
+    transition: 0.3s;
+    font-size: medium;
+  }
+  
+  .text a:hover {
+    color: #8371fd;
+  }
+.dropdown{
+  height: 30px;
+  width: 100px;
+}
+select#cars{
+  height: 30px;
+  width:220px;
+  margin: 20px;
+  border: 0;
+  align-self: center;
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+  
+  
+}
+  
+  
+  
+  
+
+.carousel{
+   
+    position: absolute;
+    flex-wrap: nowrap;
+    height: 80%;
+    width: 55%;
+    left: 45%;
+    margin: -30px;
+    margin-left: 30px;
+    padding-bottom: 50px;
+    top: 0;
+    /* background-color: rgb(189, 172, 172); */
+    /* background-image: url('https://img.freepik.com/free-vector/midnight-blue-elegant-watercolor-background_87374-83.jpg?w=360&t=st=1669778864~exp=1669779464~hmac=629f775b52e5ea435d15516c77e473a92a40842152d83d7584fd2057b1d84fb5') ; */
+    color: black;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+@media (max-width:800px) {
+  .carousel {
+    display: none;
+    
+  }
+  .inner-box{
+    align-self: center;
+  }
+  .forms-wrap{
+    margin-left: 100px;
+  }
+    
+  
+}
+
+h1.company-title{
+    padding: 30px;
+    margin: 10px;
+}
+.company-details{
+  padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.signup-btn{
+ 
+  width: 30%;
+  align-self: center;
+  height: 43px;
+  background-color: #151111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  margin-left: 270px;
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+  transition: 0.3s;
+
+}
+.error_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+.acc-title{
+  text-align: center;
+  margin-left: -90px;
+}

@@ -1,0 +1,8 @@
+.aboutus-head{
+    /* background-image: url('../images/about.jpg'); */
+    color: rgb(196, 127, 127);
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: -100px;
+}

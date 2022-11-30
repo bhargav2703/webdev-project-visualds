@@ -1,0 +1,82 @@
+.navbar{
+    color: lightsteelblue;
+    border-bottom: 1px solid lightsteelblue;
+    width: auto;
+}
+.tags{
+    color: lightsteelblue;
+}
+.nav-logo{
+  padding-right: 20vw;
+}
+.tags:hover{
+    text-decoration: underline;
+    text-decoration-style:dotted;
+    /* padding-bottom: 5px; */
+    /* font-size: 150%; */
+}
+  .navbar>li{
+    /* display: flex; */
+    padding-right: 117vw;
+  }
+  #logo{
+    /* color: red; */
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .navbar-container{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row-reverse; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+  }
+  ul{
+    margin-right: 20px;
+  }
+  ul,ul>li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 1vw;
+    padding-right: 1vw;
+   
+  
+    align-items: center;
+  }
+  .nav-logo{
+    /* padding-right: 3.5vw; */
+    margin-right: 12vw;
+  }
+  .signup-button{
+    /* padding-x; */
+
+    /* padding-left: 1.17vw; */
+    padding-right:  1.17vw;
+    color: lightsteelblue;
+    background-color: black;
+    border: 1px solid lightsteelblue;
+    /* bo */
+    border-radius: 10px;
+      width:180px;
+    margin: 10ox;
+    
+  }
+  button:hover{
+    color: black;
+    background-color: lightsteelblue;
+  }
+  .signup{
+    padding-left: 10vw;
+  }
+  Link{
+    text-decoration: none;
+  }
+  Link:active{
+    color: lightsteelblue;
+  }
+  .signup{
+    margin-left: -10px;
+  }
